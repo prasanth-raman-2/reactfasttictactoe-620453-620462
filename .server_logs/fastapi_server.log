@@ -1,4 +1,37 @@
-INFO:     Started server process [547]
+INFO:     Started server process [869]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:3001 (Press CTRL+C to quit)
+INFO:     172.17.0.1:51538 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:51544 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:51548 - "GET /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:51548 - "GET /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:51548 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     172.17.0.1:51548 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     172.17.0.1:51544 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:51538 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:48628 - "GET /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:48628 - "GET /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:48642 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:48646 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:48628 - "GET /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:48658 - "GET /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:48658 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     172.17.0.1:48658 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "OPTIONS /game HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "POST /game HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "OPTIONS /game/c8084c3c-c232-46e7-bba0-2df42a861e9d HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "GET /game/c8084c3c-c232-46e7-bba0-2df42a861e9d HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "OPTIONS /game/c8084c3c-c232-46e7-bba0-2df42a861e9d/move HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "POST /game/c8084c3c-c232-46e7-bba0-2df42a861e9d/move HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "POST /game/c8084c3c-c232-46e7-bba0-2df42a861e9d/move HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "POST /game/c8084c3c-c232-46e7-bba0-2df42a861e9d/move HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "POST /game/c8084c3c-c232-46e7-bba0-2df42a861e9d/move HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "POST /game/c8084c3c-c232-46e7-bba0-2df42a861e9d/move HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "POST /game/c8084c3c-c232-46e7-bba0-2df42a861e9d/move HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "POST /game/c8084c3c-c232-46e7-bba0-2df42a861e9d/move HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "POST /game/c8084c3c-c232-46e7-bba0-2df42a861e9d/move HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "POST /game/c8084c3c-c232-46e7-bba0-2df42a861e9d/move HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "POST /game HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "OPTIONS /game/a3455744-d3a8-43ee-a27c-55fbe1d3fc23 HTTP/1.1" 200 OK
+INFO:     172.17.0.1:32916 - "GET /game/a3455744-d3a8-43ee-a27c-55fbe1d3fc23 HTTP/1.1" 200 OK
